@@ -1,0 +1,20 @@
+body{
+    background-color: #e8e8e8;
+    color: rgb(59, 119, 99);
+}
+
+/* links ainda não visitados */
+a:link{
+    text-decoration: none;
+    color: brown;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    color: #fff;
+    border-bottom: 1px solid rgb(41, 41, 1);
+    background-color: black;
+}

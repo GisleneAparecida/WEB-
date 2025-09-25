@@ -1,0 +1,11 @@
+body{
+    background-color: azure;
+    background-image: url(../img/listra.png);
+}
+
+p{
+    color: gray;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
