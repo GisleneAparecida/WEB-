@@ -99,61 +99,125 @@
 // <= -> menor ou igual a que
 // => -> maior ou igual a que
 
-document.write("<h3> operador de comparação: igual a </h3>")
-var valor1 = 9;
-var valor2 = 8;
+// document.write("<h3> operador de comparação: igual a </h3>")
+// var valor1 = 9;
+// var valor2 = 8;
 
-if(valor1 == valor2){
-document.write(`${valor1} é igual a ${valor2}.`);
-}else{
- document.write(`${valor1} é diferente a ${valor2}`);
-}
+// if(valor1 == valor2){
+// document.write(`${valor1} é igual a ${valor2}.`);
+// }else{
+//  document.write(`${valor1} é diferente a ${valor2}`);
+// }
 
-document.write("<h3> operador de comparação: diferente de </h3>")
-if(valor1 != valor2){
-     document.write(`${valor1} é diferente de ${valor2}.`);
-}else{
-     document.write(`${valor1} é igual a ${valor2}`);
+// document.write("<h3> operador de comparação: diferente de </h3>")
+// if(valor1 != valor2){
+//      document.write(`${valor1} é diferente de ${valor2}.`);
+// }else{
+//      document.write(`${valor1} é igual a ${valor2}`);
      
-}
-if(valor1 != valor2){
-    document.write(`${valor1} é diferente de ${valor2}.`);
-}else{
-    document.write(`${valor1} é igual a ${valor2}`);
+// }
+// if(valor1 != valor2){
+//     document.write(`${valor1} é diferente de ${valor2}.`);
+// }else{
+//     document.write(`${valor1} é igual a ${valor2}`);
     
-}
+// }
 
-document.write("<h3> operador de comparação: menor que </h3>")
-if(valor1 < valor2){
-    document.write(`${valor1} é menor que ${valor2}.`);
-}else{
-    document.write(`${valor1} é maior que ${valor2}`);
+// document.write("<h3> operador de comparação: menor que </h3>")
+// if(valor1 < valor2){
+//     document.write(`${valor1} é menor que ${valor2}.`);
+// }else{
+//     document.write(`${valor1} é maior que ${valor2}`);
     
-}
+// }
 
 
-document.write("<h3> operador de comparação: maior que  </h3>")
-if(valor1 > valor2){
-    document.write(`${valor1} é maior ou igual a que ${valor2}.`);
-}else{
-    document.write(`${valor1} é menor que ${valor2}`);
+// document.write("<h3> operador de comparação: maior que  </h3>")
+// if(valor1 > valor2){
+//     document.write(`${valor1} é maior ou igual a que ${valor2}.`);
+// }else{
+//     document.write(`${valor1} é menor que ${valor2}`);
     
-}
+// }
 
 
-document.write("<h3> operador de comparação: menor ou igual a que  </h3>")
-if(valor1 <= valor2){
-    document.write(`${valor1} é menor ou igual a  ${valor2}.`);
-}else{
-    document.write(`${valor1} é maior que ${valor2}`);
+// document.write("<h3> operador de comparação: menor ou igual a que  </h3>")
+// if(valor1 <= valor2){
+//     document.write(`${valor1} é menor ou igual a  ${valor2}.`);
+// }else{
+//     document.write(`${valor1} é maior que ${valor2}`);
     
-}
+// }
 
 
-document.write("<h3> operador de comparação: maior ou igual a que  </h3>")
-if(valor1 >= valor2){
-    document.write(`${valor1} é maior ou igual a ${valor2}.`);
-}else{
-    document.write(`${valor1} é menor que ${valor2}`);
+// document.write("<h3> operador de comparação: maior ou igual a que  </h3>")
+// if(valor1 >= valor2){
+//     document.write(`${valor1} é maior ou igual a ${valor2}.`);
+// }else{
+//     document.write(`${valor1} é menor que ${valor2}`);
     
+// }
+
+// operações lógicas
+// && -> e/and
+// || -> ou/or
+// ! -> não/not
+
+// var nota = 8;
+// var faltas = 19;
+
+// if((nota >= 5) && (faltas < 20)) {
+//     document.write('<h4>Operador lógico: || ou </h4> Aprovado!!<br>');
+
+// }else{
+//     cocument.write('Aprovado!!');
+// }
+
+
+// nota = 5;
+// faltas = 15;
+
+// if((nota >= 5) && (faltas < 20)) {
+//     document.write('<h4>Operador lógico: ||(or) </h4> Aprovado!!<br>');
+
+// }else{
+//     cocument.write('Reprovado!!<br>');
+// }
+
+// var situação = !true;
+// document.write(`<h4>Operador lógico: </h4>${situaca}`);
+
+// Operações de incremento e decremento
+// ++ -> incremento
+// -- -> decremnto
+
+// var qtePessoa = 0;
+// qtePessoa ++;
+
+// document.write(`Quantidade de pessoas que passam pela porta giratória: ${qtePessoa}`);
+
+// var qtePessoaShow = 5000;
+// qtePessoa --;
+// document.write(`Quantidade de lugares disponíveis: ${qtePessoaShow}`);
+
+
+// }
+
+// funções
+function nome_funcao(){
+    alert('Login e senha incorreto');
 }
+
+function soma(a, b) {
+    var total = a + b;
+    alert(`O valor da soma é: ${total}`)
+}
+
+function desconto(a, b){
+    var totalDec = a - b;
+    return totalDec;
+    // document.write(`Valor final com desconto R$${totalDec}`);
+}
+
+var resultadoDes = desconto(10, 3);
+document.write(`Valor final com desconto: R$ ${resultadoDes}`);
