@@ -204,20 +204,76 @@
 // }
 
 // funções
-function nome_funcao(){
-    alert('Login e senha incorreto');
-}
+// function nome_funcao(){
+//     alert('Login e senha incorreto');
+// }
 
-function soma(a, b) {
-    var total = a + b;
-    alert(`O valor da soma é: ${total}`)
-}
+// function soma(a, b) {
+//     var total = a + b;
+//     alert(`O valor da soma é: ${total}`)
+// }
 
-function desconto(a, b){
-    var totalDec = a - b;
-    return totalDec;
-    // document.write(`Valor final com desconto R$${totalDec}`);
-}
+// function desconto(a, b){
+//     var totalDec = a - b;
+//     return totalDec;
+//     // document.write(`Valor final com desconto R$${totalDec}`);
+// }
 
-var resultadoDes = desconto(10, 3);
-document.write(`Valor final com desconto: R$ ${resultadoDes}`);
+// var resultadoDes = desconto(10, 3);
+// document.write(`Valor final com desconto: R$ ${resultadoDes}`);
+
+
+// Estrutura condicionais - if - else / elese-if
+// var nota =7;
+
+// if(nota >= 6){
+//   document.write(`Nota: ${nota}Parabéns !!! você foi aprovado...`);
+// }else if((nota >=4) && (nota < 6)){
+//     document.write(`Nota: ${nota}Mais ou menos...Você esta  de recuperação...`);
+// }else{
+//     document.write(`Nota: ${nota} Não foi dessa vez...volte semestre que vem...Reprovado!!!`);
+// }
+
+// var sol = false;
+// var chuva = true;
+
+// }
+// if(sol){
+//      document.write(`Tempo ensolarado...Vamos a praia....`);
+
+// }else if(chuva){
+//     document.write(`Tempo chuvoso. Risco de raios..RISCO DE TEMPESTADE!!!`);
+
+// }else{
+//     document.write(`Tempo com céu limpo...vamos ao parque!!`);
+// }
+
+// 
+// var key = 1;
+
+// switch(Key) {
+//     case 1:
+//         document.write(`chave: ${key} - Chave do apartamento`);
+//         break;
+//         case 2:
+//         document.write(`chave: ${key} - Chave da casa`);
+//         break;
+//         case 3:
+//         document.write(`chave: ${key} - Chave da sala comercial`);
+//         break;
+//         case 4:
+//          document.write(`chave: ${key} - Chave do carro`);
+//          break;
+//       case 5:
+//         document.write(`chave: ${key} - Chave não correspondente com nenhum tipo de uso`);
+//         break;
+
+
+// }
+
+// vhile
+var inicio = 1;
+while(inicio <= 10){
+    document.write(`Número do cliente: ${inicio}<br>`);
+    inicio++;
+}
